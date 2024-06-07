@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import "./services.scss";
+import "./pors.scss";
 import { motion, useInView } from "framer-motion";
 
 const variants = {
@@ -19,7 +19,7 @@ const variants = {
   },
 };
 
-const Services = () => {
+const POR = () => {
   const ref = useRef();
 
   const isInView = useInView(ref, { margin: "-100px" });
@@ -36,23 +36,23 @@ const Services = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          I focus on helping your brand grow
-          <br /> and move forward
+          Position Of
+          <br /> Responsibility
         </p>
         <hr />
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          <img src="/people.webp" alt="" />
+          <img src="/college2.jpg" alt="" />
           <h1>
-            <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
+            <motion.b whileHover={{color:"orange"}}>Position</motion.b> Of
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
+            <motion.b whileHover={{color:"orange"}}>Responsibility</motion.b>
           </h1>
-          <button>WHAT WE DO?</button>
+          <img src="/temp2.jpeg" alt="" />
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -60,7 +60,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Axios IIITL</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
             libero enim nisi aliquam consectetur expedita magni eius ex corrupti
@@ -73,7 +73,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>E-CELL IIITL</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
             libero enim nisi aliquam consectetur expedita magni eius ex corrupti
@@ -86,7 +86,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>The Musafirr Project</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
             libero enim nisi aliquam consectetur expedita magni eius ex corrupti
@@ -99,7 +99,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>ZEPHYR IIITL</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
             libero enim nisi aliquam consectetur expedita magni eius ex corrupti
@@ -113,4 +113,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default POR;

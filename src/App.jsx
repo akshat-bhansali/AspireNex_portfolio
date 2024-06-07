@@ -6,7 +6,8 @@ import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
-import Services from "./components/services/Services";
+import Experience from "./components/experience/Experience";
+import POR from "./components/por/POR";
 
 const App = () => {
   return (
@@ -16,22 +17,25 @@ const App = () => {
         <Navbar />
         <Hero />
       </section>
-      <section id="Services">
-        <Parallax type="services" />
+      <section id="Experience">
+        <Parallax type="experiences" />
       </section>
       <section>
-        <Services />
+        <Experience />
       </section>
-      <section id="Portfolio">
+      <section id="POR">
+        <Parallax type="por" />
+      </section>
+      <section>
+        <POR />
+      </section>
+      <section id="Projects">
         <Parallax type="portfolio" />
       </section>
       <Portfolio />
       <section id="Contact">
         <Contact />
       </section>
-      {/* Framer Motion Crash Course */}
-      {/* <Test/>
-    <Test/> */}
     </div>
   );
 };
