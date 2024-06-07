@@ -60,53 +60,39 @@ const POR = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Axios IIITL</h2>
+          <h2 style={{ color: "orange" }}>Axios IIITL</h2>
+          <h5 style={{ color: "grey" }}>Member</h5>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
+          At Axios, IIITL's technical wing, I served in both the app and web wings, assisting over 250 students with real-world projects and mentoring 200 juniors in Swift(IOS) development.</p>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>E-CELL IIITL</h2>
+          <h2 style={{ color: "orange" }}>E-CELL IIITL</h2>
+          <h5 style={{ color: "grey" }}>Member</h5>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
+          As a member of IIITL's Entrepreneurship Cell (E-Cell), I fostered entrepreneurship and innovation on campus, leading the impactful event Enspire'23 to inspire students towards entrepreneurial pursuits.</p>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>The Musafirr Project</h2>
+          <h2 style={{ color: "orange" }}>The Musafirr Project</h2>
+          <h5 style={{ color: "grey" }}>Volunteer</h5>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          Volunteered at The Musafirr Project, serving meals twice daily to the needy during COVID-19 alongside a team of 60. Recognized by the Mumbai government and blessed by those we assisted.
           </p>
-          <button>Go</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>ZEPHYR IIITL</h2>
+          <h2 style={{ color: "orange" }}>ZEPHYR IIITL</h2>
+          <h5 style={{ color: "grey" }}>Member</h5>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          At Zephyr, Dance Society of IIITL, I earned numerous accolades in inter-college competitions. Additionally, I organized dance-centric events like Nrityang'23, as well as Garba and Prom Night.
           </p>
-          <button>Go</button>
         </motion.div>
       </motion.div>
     </motion.div>

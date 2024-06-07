@@ -59,40 +59,35 @@ const Experience = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Tripology Holidays.Inc</h2>
+          <h2 style={{ color: "orange" }}>Tripology Holidays.Inc</h2>
+          <h5>Website Developer Intern</h5>
+          <h5 style={{ color: "grey" }}>Jan 2024 - Feb 2024 (Remote)</h5>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          During my internship at Tripology Holidays.Inc as a website developer, I played a significant role in their portal software project, contributing actively and ensuring timely delivery. This collaboration led to a notable 4% increase in customer engagement. Additionally, my experience working within a team of developers showcased my strong teamwork skills, further enhancing my professional repertoire.
           </p>
-          <button>Go</button>
+          <button><a href="https://www.linkedin.com/posts/akshat-bhansali_juniordeveloper-startuplife-thesupplywheel-activity-7190554117004546048-rDEM?utm_source=share&utm_medium=member_desktop">View Certificate of Completion</a></button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>The Supply Wheel</h2>
+          <h2 style={{ color: "orange" }}>The Supply Wheel</h2>
+          <h5>Junior Full Stack Developer Intern</h5>
+          <h5 style={{ color: "grey" }}>May 2024 - Jul 2024 (Remote)</h5>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
+          As a junior full-stack developer at The Supply Wheel, I concentrated on improving e-bill generation and social media sharing processes. Collaborating with the team, we created a self-constructing PDF system, boosting efficiency. This led to a notable 23% rise in customer retention and an 18% drop in bounce rates. I also assisted fellow developers and engaged in client meetings, enhancing project outcomes.</p>
+          <button><a href="https://www.linkedin.com/posts/akshat-bhansali_juniordeveloper-startuplife-thesupplywheel-activity-7190554117004546048-rDEM?utm_source=share&utm_medium=member_desktop">View Offer Letter</a></button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Fiverr</h2>
+         <h2 style={{ color: "orange" }}>Fiverr</h2>
+          <h5>Freelancer</h5>
+          <h5 style={{ color: "grey" }}>Jun 2023 - Present (Remote)</h5>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
+          In my Fiverr freelancing journey, I attained Level 1 seller status after completing 10 projects with consistent 5-star ratings, maintaining an 8+ success score, and earning $400. All projects were delivered ahead of schedule, underscoring my dedication to professionalism and efficiency. This experience also allowed me to learn new technology stacks and enhance my communication skills, enabling me to better understand and meet clients' needs.</p>
+          <button><a href="https://www.fiverr.com/akshatbhansali/build-the-website-of-your-imagination">View Profile</a></button>
         </motion.div>
       </motion.div>
     </motion.div>
