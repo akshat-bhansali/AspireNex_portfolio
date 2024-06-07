@@ -42,7 +42,7 @@
       }
 
       .buttons {
-        button {
+        button,a {
           padding: 20px;
           border: 1px solid white;
           border-radius: 10px;
@@ -67,10 +67,10 @@
     right: 0;
 
     @include mobile {
-      height: 50%;
+      height: 100%;
       width: 100%;
       top: unset;
-      bottom: 0;
+      bottom: -300px;
     }
 
     img{
