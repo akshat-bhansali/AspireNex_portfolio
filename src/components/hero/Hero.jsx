@@ -52,7 +52,7 @@ const Hero = () => {
             <motion.a variants={textVariants} href="#Projects">
               View Projects
             </motion.a>
-            <motion.a variants={textVariants} href="https://drive.google.com/file/d/1mQCFQYCXG73zOsT_0dOjg22_qiuSOmEV/view?usp=sharing">View Resume</motion.a>
+            <motion.a variants={textVariants} href="https://drive.google.com/file/d/1ozJXxoi_5oO84cFTiuTZ2x0orH1pnKCO/view?usp=share_link">View Resume</motion.a>
           </motion.div>
           <motion.h1 variants={textVariants}>
             Web and App Developer
