@@ -55,6 +55,17 @@ const Experience = () => {
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
+      <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h2 style={{ color: "orange" }}>Angel One Broking</h2>
+          <h5>Software Developer Intern</h5>
+          <h5 style={{ color: "grey" }}>Sep 2024 - Mar 2025 (Remote)</h5>
+          <p>
+          Worked in AMX-Alpha team where I created a resource console to manage multiple services. Used Confluence, Jira to track progress and created multiple HLD, LLD and sequence diagrams. Tested and deployed the AMX console on UAT(dev) and production environments in Go and Svelte.
+          </p>
+        </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
