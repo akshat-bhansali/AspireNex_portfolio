@@ -19,7 +19,7 @@ const Navbar = () => {
           <a href="https://www.linkedin.com/in/akshat-bhansali/">
             <img src="/linkedin.png" alt="" />
           </a>
-          <a href="https://codeforces.com/profile/odison7">
+          <a href="https://codeforces.com/profile/peaxe">
             <img src="/forces.png" alt="" />
           </a>
           <a href="https://www.youtube.com/@akshatbhansali4185">

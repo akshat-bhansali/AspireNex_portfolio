@@ -55,6 +55,17 @@ const Experience = () => {
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h2 style={{ color: "orange" }}>Amazon</h2>
+          <h5>Software Developer Engineer Intern</h5>
+          <h5 style={{ color: "grey" }}>Jul 2025 - Dec 2025 (Bengaluru)</h5>
+          <p>
+          At Amazon, I’m working as a Software Developer Engineer Intern in the RBS Sherlock team, where I developed a Rules Engine that converts BA/DA-authored rules into PySpark ETL jobs, reducing setup time by 60%. I also built a CDK-driven Data Enrichment pipeline automating S3 deployments, saving 20 minutes per release, and created a Multi Account Manager to route workloads dynamically across multiple SQS queues, improving efficiency by 40%.</p>
+          <button><a href="/">View Certificate of Completion</a></button>
+        </motion.div>
       <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
@@ -63,21 +74,10 @@ const Experience = () => {
           <h5>Software Developer Intern</h5>
           <h5 style={{ color: "grey" }}>Sep 2024 - Mar 2025 (Remote)</h5>
           <p>
-          Worked in AMX-Alpha team where I created a resource console to manage multiple services. Used Confluence, Jira to track progress and created multiple HLD, LLD and sequence diagrams. Tested and deployed the AMX console on UAT(dev) and production environments in Go and Svelte.
-          </p>
+          At Angel One Broking, I worked as a Software Developer Engineer Intern in the AMX-Alpha team, where I built Nemesis, a Redis-integrated internal console for real-time trade and order-book data, ensuring persistence despite daily flush cycles. I migrated authentication from Google OAuth to Microsoft OAuth across systems and automated trade monitoring workflows, reducing manual effort by 25% and enhancing overall system reliability.</p>
+          <button><a href="/">View Certificate of Completion</a></button>
         </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2 style={{ color: "orange" }}>Tripology Holidays.Inc</h2>
-          <h5>Website Developer Intern</h5>
-          <h5 style={{ color: "grey" }}>Jan 2024 - Feb 2024 (Remote)</h5>
-          <p>
-          During my internship at Tripology Holidays.Inc as a website developer, I played a significant role in their portal software project, contributing actively and ensuring timely delivery. This collaboration led to a notable 4% increase in customer engagement. Additionally, my experience working within a team of developers showcased my strong teamwork skills, further enhancing my professional repertoire.
-          </p>
-          <button><a href="https://www.linkedin.com/posts/akshat-bhansali_juniordeveloper-startuplife-thesupplywheel-activity-7190554117004546048-rDEM?utm_source=share&utm_medium=member_desktop">View Certificate of Completion</a></button>
-        </motion.div>
+        
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
